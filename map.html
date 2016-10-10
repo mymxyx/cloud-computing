@@ -1,0 +1,118 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TravelApp-map</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">   
+      </head>
+      <body>
+      <style>
+      body{
+          padding-top:70px;
+          margin:0 20px 0 20px;
+		  background-color:#CCC;
+      }
+	  
+	  .map-left{
+		padding:20px;
+		background-color:#FFF;
+		}
+	  .map-right{
+		padding:20px;
+		background-color:#FFF;
+		}
+		
+	   .map-body{
+		margin:5px;
+		background-color:#CCC;
+		height:500px;
+		}
+      </style>
+      <!--navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <!-- navbar-toggle collapsed-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#signout-navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TravalAppLogo</a>
+                </div>
+            
+                <!--navber content-->
+                <div class="collapse navbar-collapse" id="signout-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="signout.html">One</a></li>
+                        <li><a href="main.html">Two</a></li>
+                        <li class="active"><a href="map.html">Three</a></li>
+                    </ul>
+                    
+                    <!-- Sign in -->
+                    <form class="form-inline center-block nav navbar-form navbar-nav navbar-right">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="username">
+                          <input type="password" class="form-control" placeholder="password">
+                          <button type="submit" class="btn btn-default">Sign in </button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </nav>
+        
+     
+     <div class="container" id="map-body">
+          <div class="row">
+     
+  		   <div class="col-md-3">
+             <div class="map-left">
+              
+               <form role="form">
+				<div class="form-group">
+  				  <select class="form-control">
+    			  <option>Orlando</option>
+    			  <option>Gainesville</option>
+    			  <option>Tampa</option>
+    			  <option>Ocala</option>
+    			  <option>Jacksonville</option>
+  				  </select>
+  				 </div>
+                 <button type="submit" class="btn btn-primary ">Sent</button>
+               </form>
+               <blockquote>
+               <form role="form">
+                 <div class="form-group">
+                   <ul class="lead" >
+                     <li><a href="#"><b>Gainesville</b></a></li>
+                     <li><a href="#"><b>Orlando</b></a></li>
+                   </ul>
+                 </div>
+               </form>
+               </blockquote>
+             </div>
+           </div>
+           
+           <div class="col-md-9">
+             <div class="map-right">
+               <div class="map-body ">
+                 <img src='images/008.jpg' height='500' weight='600' />
+               </div>
+             </div>
+           </div>
+           
+          </div>
+     </div>
+     
+     
+            
+        <script src="js/jquery-3.1.1.min.js"></script>
+    
+        <script src="js/bootstrap.min.js"></script>
+      </body>
+    </html>

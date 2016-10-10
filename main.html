@@ -1,0 +1,215 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TravelApp-main</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">   
+      </head>
+      <body>
+      <style>
+      body{
+          padding-top:70px;
+          margin:0 20px 0 20px;
+		  background-color:#CCC;
+      }
+	
+	#main-body{
+		
+		}
+	.main-left{
+		padding:20px;
+		background-color:#FFF;
+		
+		}
+	
+		
+	.main-center{
+		padding:20px;
+		background-color:#FFF;
+		}
+		
+	.main-right{
+		padding:20px;
+		background-color:#FFF;
+		}	
+		
+	.travel-post{
+		padding:20px;
+		
+		}
+      </style>
+      <!--navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <!-- navbar-toggle collapsed-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#signout-navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TravalAppLogo</a>
+                </div>
+            
+                <!--navber content-->
+                <div class="collapse navbar-collapse" id="signout-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="signout.html">one</a></li>
+                        <li class="active"><a href="main.html">Two</a></li>
+                        <li><a href="map.html">Three</a></li>
+                    </ul>
+                    
+                    <!-- Sign in -->
+                    <form class="form-inline center-block nav navbar-form navbar-nav navbar-right">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="username">
+                          <input type="password" class="form-control" placeholder="password">
+                          <button type="submit" class="btn btn-default">Sign in </button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container" id="main-body">
+          <div class="row">
+          
+          
+  		   <div class="col-md-3">
+             <div class="main-left">
+ 	
+            	<div class="panel panel-default">
+                  <div class="panel-heading">
+                    Personal Information
+                  </div>
+                  <div class="panel-body">
+                    <a href="#"><img src='images/001.jpg' width='60' height='60' /></a>
+                  <p>Firstname Lastname</p>
+                  </div>
+                </div> 
+                
+                <div class="panel panel-default">
+  				<div class="panel-heading">
+    				My posters
+  				</div>
+  				<div class="panel-body">                 
+                  <p><a href="#">
+                   Click hear to see!
+                  </a></p>                  
+                </div>
+			   </div> 
+               
+               <div class="panel panel-default">
+  				<div class="panel-heading">
+    				Favorite
+  				</div>
+  				<div class="panel-body">                 
+                  <p><a href="#">
+                   Click hear to see!
+                  </a></p>                  
+                </div>
+			   </div> 
+               
+               <div class="panel panel-default">
+  				<div class="panel-heading">
+    				Travel Map
+  				</div>
+  				<div class="panel-body">                 
+                  <p><a href="#">
+                   Click hear to see!
+                  </a></p>                  
+                </div>
+			   </div> 
+                 
+           	</div>
+           </div>
+           
+           
+           
+  		   <div class="col-md-6">
+             <div class="main-center">
+          	   
+               <div class="panel panel-default">
+  				<div class="panel-heading">
+    				<p class="text-center">Upload what you want!<p>
+  				</div>
+  				<div class="panel-body">                 
+                  <form role="form">
+  					<div class="form-group">
+                     <input type="text" class="form-control" placeholder="Heading">
+                     <input type="text" class="form-control" placeholder="Time">
+                     <input type="text" class="form-control" placeholder="Keywords">
+                     <textarea class="form-control" rows="8" placeholder="write something you want to share~"></textarea>
+  					</div>
+				  </form>
+                   <button type="submit" class="btn btn-primary ">Upload </button>                 
+                </div>
+                
+			   </div> 
+               
+               
+               <div class="panel panel-default">
+  				<div class="panel-heading">
+    				<p class="text-center">The first post<p>
+                    <p  class="text-right">time</p>
+                    <p  class="text-right">author</p>
+  				</div>
+  				<div class="panel-body">                 
+                     <p>content of the first post</p>
+                     <p>content of the first post</p>
+                     <p>content of the first post</p>
+                     <p>content of the first post</p>
+                     <p>content of the first post</p>
+                     <p>content of the first post</p>            
+                </div>
+                
+			   </div> 
+               
+               <div class="panel panel-default">
+  				<div class="panel-heading">
+    				<p class="text-center">The second post<p>
+                    <p  class="text-right">time</p>
+                    <p  class="text-right">author</p>
+  				</div>
+  				<div class="panel-body">                 
+                     <p>content of the second post</p>
+                     <p>content of the second post</p>
+                     <p>content of the second post</p>
+                     <p>content of the second post</p>
+                     <p>content of the second post</p>
+                     <p>content of the second post</p>            
+                </div>
+                
+			   </div> 
+               
+             </div>
+           </div>
+           
+  		   <div class="col-md-3">
+             <div class="main-right">
+          	   
+               <a href="#"><h1 class="text-center"><span class="label label-default">Map</span></h1></a>
+               <a href="#"><h1 class="text-center"><span class="label label-default">Like</span></h1></a>
+               <a href="#"><h1 class="text-center"><span class="label label-default">Same interest</span></h1></a>
+              
+               
+             </div>
+           </div>
+           
+		  </div>
+		</div>
+        
+        
+        
+     
+            
+        <script src="js/jquery-3.1.1.min.js"></script>
+    
+        <script src="js/bootstrap.min.js"></script>
+      </body>
+    </html>
